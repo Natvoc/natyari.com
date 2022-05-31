@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
 body{ 
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
 }
+a{
+    text-decoration: none;
+}
+
+/*INICIA MENU*/
+
 nav{
     display: flex;
     justify-content: left;
@@ -37,31 +44,49 @@ li a{
     color: rgb(40, 40, 40);
 }
 
-a{
-    text-decoration: none;
-}
+
+/*TERMINA MENU*/
+
+
 .titulo-pagina{
-    font-size: 4em;
-    color: rgb(59, 59, 59);
-    margin: 0.5em 0em 1em 0.4em;
+    font-size: 5em;
+    color: rgb(6, 0, 36);
+    margin: 0.1em 0em 0em 1.1em;
     font-weight: 600;
 }
 
-/*Publicaciones*/
+
+/*INICIA PUBLICACIONES*/
+
 .fila{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    margin:6em;
 
 }
 .post{
-    width: 10em;
-    height: 15em;
+    width: 22em;
+    height: 24em;
 }
 .img-portada{
-    width: 20em;
+    width: 22em;
+    height: 14em;
     border-radius: 0.5em;
 }
 .fecha{
     font-size: 0.9em;
-    color: rgb(148, 148, 148);
+    color: #5355558d;
+    margin: 0.7em 0 0.7em 0;
+}
+.titulo-pub{
+    color: rgb(29, 29, 29);
+    font-weight: 600;
+    font-size: 1.2em;
+    
+}
+.resumen{
+    margin: 0.6em 0 0.6em 0;
+    font-size: 1em;
+    color: rgb(75, 75, 75);
 }
