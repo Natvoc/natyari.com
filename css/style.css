@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
 body{ 
     margin: 0;
     padding: 0;
+    font-family: 'Lato', sans-serif;
 }
 nav{
     display: flex;
@@ -27,6 +29,39 @@ nav .logo{
 }
 .menu li {
     display: inline;
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin: 0.2em;
+    font-weight: 300;
+}
+li a{
+    color: rgb(40, 40, 40);
+}
+
+a{
+    text-decoration: none;
+}
+.titulo-pagina{
+    font-size: 4em;
+    color: rgb(59, 59, 59);
+    margin: 0.5em 0em 1em 0.4em;
+    font-weight: 600;
+}
+
+/*Publicaciones*/
+.fila{
+    display: flex;
+    align-items: center;
+
+}
+.post{
+    width: 10em;
+    height: 15em;
+}
+.img-portada{
+    width: 20em;
+    border-radius: 0.5em;
+}
+.fecha{
+    font-size: 0.9em;
+    color: rgb(148, 148, 148);
 }
