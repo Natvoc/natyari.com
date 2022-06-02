@@ -90,3 +90,48 @@ li a{
     font-size: 1em;
     color: rgb(75, 75, 75);
 }
+
+/*TERMINA PUBLICACIONES*/
+
+/*INICIA POST*/
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.header-publicacion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titulo-publicacion{
+    font-size: 2.8em;
+    font-weight: 600;
+    margin: 1em 0em 1em 0em;
+    color: rgb(29, 29, 29);
+}
+.imagen-portada{
+    width: 50em;
+    height: 30em;
+    border-radius: 1em;
+}
+.creditos{
+    margin: 0.2em;
+    color: rgb(130, 130, 130);
+}
+span a{
+    color: rgb(72, 72, 72);
+}
+.subtitulo{
+    font-size: 1.8em;
+    font-weight: 500;
+    margin: 1em 0em 0em 1.8em ;
+}
+.parrafo-normal{
+    margin: 2em;
+    font-size: 1.6em;
+    font-weight: 300;
+    text-align: justify;
+}
