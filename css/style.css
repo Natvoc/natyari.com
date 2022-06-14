@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;500&display=swap');
 
 
 body{ 
     margin: 0;
     padding: 0;
     background-color: #0D1117;
-    color: #fff;
+    color: #c9d1d9;
+    font-family: 'JetBrains Mono', monospace;
 }
 a{
     text-decoration: none;
@@ -19,10 +21,10 @@ nav{
 }
 nav .logo{
     font-family: 'Pacifico', cursive;
-    color: #0C9A67;
-    font-size: 3em;
-    margin-top: 0.1em;
-    margin-left: 0.5em;
+    color: #8b949B;
+    font-size: 2em;
+    margin-top: 0.7em;
+    margin-left: 0.7em;
     width: 20%;
 }
 .menu{
@@ -42,7 +44,7 @@ nav .logo{
     font-weight: 300;
 }
 li a{
-    color: rgb(40, 40, 40);
+    color: #8b949B;
 }
 
 
