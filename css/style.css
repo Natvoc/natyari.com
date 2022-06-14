@@ -50,4 +50,17 @@ li a{
 
 /*TERMINA MENU*/
 
+/*INICIA CONTAINER-ABOUT*/
 
+.container-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.name{
+    font-weight: 500;
+}
+.name p{
+    color: #58a6ff;
+}
