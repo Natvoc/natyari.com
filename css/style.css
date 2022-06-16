@@ -70,6 +70,38 @@ li a{
     width: 14em;
     margin-top: 1em;
 }
+    /*TERMINA CONTAINER-ABOUT*/
+
+    /*INICIA CONTAINER-PROYECTOS*/
+    .container-proyectos h2{
+        text-align: center;
+        margin-top: 4em;
+    }
+    .pinned{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .uno{
+        width: 20em;
+        border: solid rgb(56, 56, 56) 1px;
+        padding: 1em;
+        margin: 1em 0 1em 0;
+    }
+    .uno .titulo-proyecto{
+        color: #58a6ff;
+        font-weight: 500;
+        font-size: 1em;
+    }
+    .uno .descripcion{
+        font-weight: 200;
+        font-size: 0.8em;
+    }
+    .uno .lenguajes{
+        font-weight: 100;
+        
+    }
 
 /*---------------Versión PC--------------*/
 
