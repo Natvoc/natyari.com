@@ -13,6 +13,9 @@ a{
     text-decoration: none;
 }
 
+/*---------------Versión Móvil--------------*/
+
+
     /*INICIA MENU*/
 
 nav{
@@ -46,14 +49,13 @@ nav .logo{
 li a{
     color: #8b949B;
 }
-
-
     /*TERMINA MENU*/
 
     /*INICIA CONTAINER-ABOUT*/
 
 .container-about{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -65,6 +67,31 @@ li a{
     color: #58a6ff;
 }
 .image-header img{
-    width: 18em;
-    margin-left: 8em;
+    width: 14em;
+    margin-top: 1em;
 }
+
+/*---------------Versión PC--------------*/
+
+@media (min-width: 600px) {
+   
+    /*INICIA CONTAINER-ABOUT*/
+
+    .container-about{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .name{
+        font-weight: 500;
+    }
+    .name p{
+        color: #58a6ff;
+    }
+    .image-header img{
+        width: 18em;
+        margin-left: 8em;
+    }
+  }
