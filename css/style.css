@@ -13,7 +13,7 @@ a{
     text-decoration: none;
 }
 
-/*INICIA MENU*/
+    /*INICIA MENU*/
 
 nav{
     display: flex;
@@ -48,9 +48,9 @@ li a{
 }
 
 
-/*TERMINA MENU*/
+    /*TERMINA MENU*/
 
-/*INICIA CONTAINER-ABOUT*/
+    /*INICIA CONTAINER-ABOUT*/
 
 .container-about{
     display: flex;
@@ -63,4 +63,8 @@ li a{
 }
 .name p{
     color: #58a6ff;
+}
+.image-header img{
+    width: 18em;
+    margin-left: 8em;
 }
