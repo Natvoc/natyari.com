@@ -83,38 +83,40 @@ li a{
     /*TERMINA CONTAINER-ABOUT*/
 
     /*INICIA CONTAINER-PROYECTOS*/
-    .container-proyectos{
-        margin-bottom: 8em;
-    }
-    .container-proyectos h2{
-        text-align: center;
+.container-proyectos{
+    margin-bottom: 8em;
+}
+.container-proyectos h2{
+    text-align: center;
        
-    }
-    .pinned{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .uno{
-        width: 20em;
-        border: solid rgb(56, 56, 56) 1px;
-        padding: 1em;
-        margin: 1em 0 1em 0;
-    }
-    .uno .titulo-proyecto{
-        color: #58a6ff;
-        font-weight: 500;
-        font-size: 1em;
-    }
-    .uno .descripcion{
-        font-weight: 200;
-        font-size: 0.8em;
-    }
-    .uno .lenguajes{
+}
+.pinned{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.proyecto{
+    width: 20em;
+    height: 12em;
+    border: solid rgb(56, 56, 56) 1px;
+    padding: 1em;
+    margin: 1em 0 1em 0;
+}
+.proyecto .titulo-proyecto{
+    font-weight: 500;
+    font-size: 1em;
+    color: #58a6ff;
+}
+.proyecto .descripcion{
+    font-weight: 200;
+    font-size: 0.8em;
+}
+.proyecto .lenguajes{
         font-weight: 100;
         
-    }
+}
+     /*TERMINA CONTAINER-PROYECTOS*/
 
 /*---------------Versión PC--------------*/
 
@@ -147,9 +149,53 @@ li a{
 .image-header img{
     width: 275px;
     height: 260px;
-    margin-left: 3em;
     
 }
     /*TERMINA CONTAINER-ABOUT*/
+
+    /*INICIA CONTAINER-PROYECTOS*/
+ .container-proyectos{
+    margin-bottom: 8em;
+}
+.container-proyectos h2{
+    text-align: center;
+   
+}
+.pinned{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.proyecto{
+    width: 20em;
+    height: 12em;
+    border: solid rgb(56, 56, 56) 1px;
+    padding: 1em;
+    margin: 1em 0.5em 1em 0.5em;
+
+}
+.proyecto .titulo-proyecto{
+    color: #58a6ff;
+    font-weight: 500;
+    font-size: 1em;
+}
+.proyecto .descripcion{
+    font-weight: 200;
+    font-size: 0.8em;
+}
+.proyecto .lenguajes{
+    font-weight: 100;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    
+}
+ /*TERMINA CONTAINER-PROYECTOS*/
+
+
+
+
+
+
     
   }
