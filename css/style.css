@@ -60,6 +60,7 @@ li a{
     align-items: center;
     text-align: center;
     height: 100vh;
+    margin-top: -4em;
 }
 .name{
     font-weight: 500;
@@ -75,7 +76,7 @@ li a{
     
 }
 .image-header img{
-    width: 224px;
+    width: 235px;
     height: 224px;
     margin-top: 4em;
 }
