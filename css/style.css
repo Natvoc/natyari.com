@@ -59,23 +59,34 @@ li a{
     justify-content: center;
     align-items: center;
     text-align: center;
+    height: 100vh;
 }
 .name{
     font-weight: 500;
+    
 }
-.name p{
+.name .pues{
     color: #58a6ff;
+    margin-top: -1em;
+}
+.name .des{
+    padding: 1em;
+    font-weight: 100;
 }
 .image-header img{
-    width: 14em;
-    margin-top: 1em;
+    width: 224px;
+    height: 224px;
+    margin-top: 4em;
 }
     /*TERMINA CONTAINER-ABOUT*/
 
     /*INICIA CONTAINER-PROYECTOS*/
+    .container-proyectos{
+        margin-bottom: 8em;
+    }
     .container-proyectos h2{
         text-align: center;
-        margin-top: 4em;
+       
     }
     .pinned{
         display: flex;
