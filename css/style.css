@@ -72,6 +72,7 @@ li a{
 .name .des{
     padding: 1em;
     font-weight: 100;
+    
 }
 .image-header img{
     width: 224px;
@@ -117,24 +118,37 @@ li a{
 /*---------------Versión PC--------------*/
 
 @media (min-width: 600px) {
-   
+
     /*INICIA CONTAINER-ABOUT*/
 
-    .container-about{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-    .name{
-        font-weight: 500;
-    }
-    .name p{
-        color: #58a6ff;
-    }
-    .image-header img{
-        width: 18em;
-        margin-left: 8em;
-    }
+.container-about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    margin-top: -5em;
+}
+.name{
+    font-weight: 500;
+    
+}
+.name .pues{
+    color: #58a6ff;
+    margin-top: -1em;
+}
+.name .des{
+    padding: 1em;
+    font-weight: 100;
+    
+}
+.image-header img{
+    width: 260px;
+    height: 260px;
+    margin-left: 3em;
+    
+}
+    /*TERMINA CONTAINER-ABOUT*/
+    
   }
