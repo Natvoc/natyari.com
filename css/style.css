@@ -70,11 +70,6 @@ li a{
     color: #58a6ff;
     margin-top: -1em;
 }
-.name .des{
-    padding: 1em;
-    font-weight: 100;
-    
-}
 .image-header img{
     width: 235px;
     height: 224px;
@@ -87,8 +82,7 @@ li a{
     margin-bottom: 8em;
 }
 .container-proyectos h2{
-    text-align: center;
-       
+    text-align: center;    
 }
 .pinned{
     display: flex;
@@ -113,8 +107,7 @@ li a{
     font-size: 0.8em;
 }
 .proyecto .lenguajes{
-        font-weight: 100;
-        
+        font-weight: 100;       
 }
 button{
     background-color: #21272b; 
@@ -122,9 +115,8 @@ button{
     padding: 0.5em 2em 0.5em 2em;
     border-radius: 5px;
     color: #ffff;
-   
 }
-     /*TERMINA CONTAINER-PROYECTOS*/
+    /*TERMINA CONTAINER-PROYECTOS*/
 
 /*------------------------Versión PC------------------------*/
 
@@ -141,17 +133,14 @@ button{
     height: 100vh;
     margin-top: -5em;
 }
-
 .image-header img{
-    width: 275px;
-    height: 260px;
-    margin-left: 2em;
+    width: 375px;
+    height: 360px;
     
 }
     /*TERMINA CONTAINER-ABOUT*/
 
     /*INICIA CONTAINER-PROYECTOS*/
-
 .pinned{
     display: flex;
     align-items: center;
@@ -166,19 +155,14 @@ button{
     margin: 1em 0.5em 1em 0.5em;
 
 }
-
 .proyecto .lenguajes{
     font-weight: 100;
     margin-top: 1.5em;
     margin-bottom: 1.5em;
-    
 }
  /*TERMINA CONTAINER-PROYECTOS*/
-
-
-
-
-
-
     
+  }
+  .test img{
+    width: 700px;
   }
