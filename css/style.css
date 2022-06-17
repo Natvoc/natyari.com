@@ -60,7 +60,7 @@ li a{
     align-items: center;
     text-align: center;
     height: 100vh;
-    margin-top: -4em;
+    margin-top: -6em;
 }
 .name{
     font-weight: 500;
@@ -71,8 +71,8 @@ li a{
     margin-top: -1em;
 }
 .image-header img{
-    width: 235px;
-    height: 224px;
+    width: 350px;
+    height: 230px;
     margin-top: 4em;
 }
     /*TERMINA CONTAINER-ABOUT*/
@@ -118,6 +118,19 @@ button{
 }
     /*TERMINA CONTAINER-PROYECTOS*/
 
+.container-blog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+.container-blog img{
+width: 400px;
+height: 200;
+}
+
+
 /*------------------------Versión PC------------------------*/
 
 @media (min-width: 600px) {
@@ -126,16 +139,16 @@ button{
 
 .container-about{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     height: 100vh;
-    margin-top: -5em;
+
 }
 .image-header img{
-    width: 375px;
-    height: 360px;
+    width: 520px;
+    height: 370px;
     
 }
     /*TERMINA CONTAINER-ABOUT*/
@@ -161,8 +174,6 @@ button{
     margin-bottom: 1.5em;
 }
  /*TERMINA CONTAINER-PROYECTOS*/
-    
+
   }
-  .test img{
-    width: 700px;
-  }
+ 
