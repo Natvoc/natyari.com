@@ -116,9 +116,17 @@ li a{
         font-weight: 100;
         
 }
+button{
+    background-color: #21272b; 
+    border: solid rgb(56, 56, 56) 1px;
+    padding: 0.5em 2em 0.5em 2em;
+    border-radius: 5px;
+    color: #ffff;
+   
+}
      /*TERMINA CONTAINER-PROYECTOS*/
 
-/*---------------Versión PC--------------*/
+/*------------------------Versión PC------------------------*/
 
 @media (min-width: 600px) {
 
@@ -133,19 +141,7 @@ li a{
     height: 100vh;
     margin-top: -5em;
 }
-.name{
-    font-weight: 500;
-    
-}
-.name .pues{
-    color: #58a6ff;
-    margin-top: -1em;
-}
-.name .des{
-    padding: 1em;
-    font-weight: 100;
-    
-}
+
 .image-header img{
     width: 275px;
     height: 260px;
@@ -155,13 +151,7 @@ li a{
     /*TERMINA CONTAINER-ABOUT*/
 
     /*INICIA CONTAINER-PROYECTOS*/
- .container-proyectos{
-    margin-bottom: 8em;
-}
-.container-proyectos h2{
-    text-align: center;
-   
-}
+
 .pinned{
     display: flex;
     align-items: center;
@@ -176,15 +166,7 @@ li a{
     margin: 1em 0.5em 1em 0.5em;
 
 }
-.proyecto .titulo-proyecto{
-    color: #58a6ff;
-    font-weight: 500;
-    font-size: 1em;
-}
-.proyecto .descripcion{
-    font-weight: 200;
-    font-size: 0.8em;
-}
+
 .proyecto .lenguajes{
     font-weight: 100;
     margin-top: 1.5em;
