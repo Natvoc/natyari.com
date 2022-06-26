@@ -119,9 +119,7 @@ button{
     /*TERMINA CONTAINER-PROYECTOS*/
 
     /*INICIA CONTAINER-CERTIFICACIONES*/
-    .container-certificaciones{
-        margin-bottom: 8em;
-    }
+    
     .container-certificaciones h2{
         text-align: center;    
     }
@@ -140,7 +138,7 @@ button{
     }
     .certi .titulo-certi{
         font-weight: 500;
-        font-size: 1em;
+        font-size: 0.9em;
         color: #58a6ff;
     }
 
@@ -198,6 +196,19 @@ button{
     align-items: center;
     justify-content: center;
     flex-direction: row;
+}
+.certi{
+    width: 20em;
+    height: 5em;
+    border: solid rgb(56, 56, 56) 1px;
+    padding: 1em;
+    margin: 1em 0.5em 1em 0.5em;
+
+}
+.certi .empresa{
+    font-weight: 100;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
 }
 
   }
