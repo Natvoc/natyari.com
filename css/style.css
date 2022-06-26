@@ -156,8 +156,11 @@ height: 200;
     font-size: 1em;
     color: #58a6ff;
 }
+.columna .titulo-certi a{
+    color: #58a6ff;
+}
 .empresa-certi{
-    margin-left:4em
+    margin-left:8em
 }
 
 
