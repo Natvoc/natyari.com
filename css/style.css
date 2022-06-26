@@ -119,39 +119,32 @@ button{
     /*TERMINA CONTAINER-PROYECTOS*/
 
     /*INICIA CONTAINER-CERTIFICACIONES*/
+    .container-certificaciones{
+        margin-bottom: 8em;
+    }
+    .container-certificaciones h2{
+        text-align: center;    
+    }
+    .pinned-cer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .certi{
+        width: 20em;
+        height: 4em;
+        border: solid rgb(56, 56, 56) 1px;
+        padding: 1em;
+        margin: 1em 0 1em 0;
+    }
+    .certi .titulo-certi{
+        font-weight: 500;
+        font-size: 1em;
+        color: #58a6ff;
+    }
 
-.container-certificaciones{
-    margin-bottom: 8em;
-}
-.container-certificaciones h2{
-    text-align: center;    
-}
-.certificaciones{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.columna{
-    width: 20em;
-    height: 2em;
-    border: solid rgb(56, 56, 56) 1px;
-    padding: 1em;
-    margin: 1em 0 1em 0;
-    display:flex;
-    flex-direction:row;
-}
-.columna .titulo-certi{
-    font-weight: 500;
-    font-size: 1em;
-    color: #58a6ff;
-}
-.columna .titulo-certi a{
-    color: #58a6ff;
-}
-.empresa-certi{
-    margin-left:8em
-}
+
 
 
 /*------------------------Versión PC------------------------*/
@@ -200,21 +193,11 @@ button{
 
  /*INICIA CONTAINER-CERTIFICACIONES*/
 
- .certificaciones{
+ .pinned-cer{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-   
-}
-.columna{
-    width: 20em;
-    height: 3.5em;
-    border: solid rgb(56, 56, 56) 1px;
-    padding: 1em;
-    margin: 1em 1em 1em 1em;
-    display:flex;
-    flex-direction:row;
+    flex-direction: row;
 }
 
   }
