@@ -118,17 +118,7 @@ button{
 }
     /*TERMINA CONTAINER-PROYECTOS*/
 
-.container-blog{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    
-}
-.container-blog img{
-width: 400px;
-height: 200;
-}
+    /*INICIA CONTAINER-CERTIFICACIONES*/
 
 .container-certificaciones{
     margin-bottom: 8em;
@@ -207,6 +197,25 @@ height: 200;
     margin-bottom: 1.5em;
 }
  /*TERMINA CONTAINER-PROYECTOS*/
+
+ /*INICIA CONTAINER-CERTIFICACIONES*/
+
+ .certificaciones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+.columna{
+    width: 20em;
+    height: 3.5em;
+    border: solid rgb(56, 56, 56) 1px;
+    padding: 1em;
+    margin: 1em 1em 1em 1em;
+    display:flex;
+    flex-direction:row;
+}
 
   }
  
