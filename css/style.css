@@ -199,7 +199,7 @@ button{
 }
 .certi{
     width: 20em;
-    height: 5em;
+    height:5em;
     border: solid rgb(56, 56, 56) 1px;
     padding: 1em;
     margin: 1em 0.5em 1em 0.5em;
@@ -209,6 +209,7 @@ button{
     font-weight: 100;
     margin-top: 1.5em;
     margin-bottom: 1.5em;
+    font-size: 0.95em;
 }
 
   }
