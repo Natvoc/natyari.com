@@ -142,8 +142,27 @@ button{
         color: #58a6ff;
     }
 
+    footer{
+        width: 100%;
+        margin-top: 4em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .redes{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .redes svg{
+       fill:#fff;
+       width: 2em;
+       height: 2em;
+       margin: 0 0.5em 1.8em 0.5em
 
-
+    }
 
 /*------------------------Versión PC------------------------*/
 
